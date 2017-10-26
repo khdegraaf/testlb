@@ -1,0 +1,12 @@
+region="eu-west-0"
+az="eu-west-0a"
+name="terrecs"
+image_id="5c22701f-a44f-465d-80c5-2ae3b5495206"
+flavor="t2.micro"
+keypair="KeyPair-wanwei-ocb"
+subnet_id="bb21cec3-2033-4b36-b80e-e762c5b989c3"
+network_id="8c9ade68-53b0-4f5d-8838-fad49a3ccd7d"
+attach_eip="false"
+security_groups=["sg-wanwei-demoi"]
+count="1"
+instance_count="2"
